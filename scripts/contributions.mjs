@@ -38,7 +38,7 @@ export function render(data, dark = false) {
   const colors = dark ? {bg:'#0d1117',text:'#e6edf3',muted:'#9da7b3',line:'#252c37',purple:'#b7a0ed',tint:'#201c30'}
     : {bg:'#ffffff',text:'#24242b',muted:'#737383',line:'#eeedf3',purple:'#8870bb',tint:'#f5f1fc'};
   const rows = data.repos.slice(0, 6);
-  const height = 492 + Math.max(1, rows.length) * 54;
+  const height = 472 + Math.max(1, rows.length) * 54;
   const t = (x,y,txt,size=13,fill=colors.text,extra='') => `<text x="${x}" y="${y}" font-size="${size}" fill="${fill}" ${extra}>${escape(txt)}</text>`;
   const line = y => `<path d="M32 ${y}H688" stroke="${colors.line}"/>`;
   let svg = `<svg xmlns="http://www.w3.org/2000/svg" width="720" height="${height}" viewBox="0 0 720 ${height}" role="img" aria-labelledby="title desc">
@@ -78,7 +78,6 @@ export function render(data, dark = false) {
     svg += t(58,y,name,13,colors.text,'font-weight="550"') + t(688,y,`${r.merged} / ${r.open}  ·  ☆ ${new Intl.NumberFormat('en',{notation:'compact',maximumFractionDigits:1}).format(r.stars)}`,12,colors.muted,'text-anchor="end"');
     svg += line(y+20);
   });
-  svg += t(32,height-16,`GitHub 公开数据 · 更新于 ${data.updated.slice(0,16).replace('T',' ')} UTC`,10,colors.muted);
   svg += '</g></svg>\n';
   return svg;
 }
