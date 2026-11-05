@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T03:15:23.227Z",
+  "updated": "2026-11-05T07:59:41.000Z",
   "merged": 0,
   "repositories": 1,
   "recent": 0,
@@ -71,13 +71,13 @@
       "name": "crewAIInc/crewAI",
       "merged": 0,
       "open": 1,
-      "stars": 60466
+      "stars": 60519
     }
   ],
   "prs": [
     {
       "repo": "crewAIInc/crewAI",
-      "stars": 60466,
+      "stars": 60519,
       "url": "https://github.com/crewAIInc/crewAI/pull/8484",
       "title": "fix(tasks): clear stale output when conditional tasks are skipped",
       "number": 8484,
