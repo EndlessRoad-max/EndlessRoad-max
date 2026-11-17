@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-16T08:06:36.676Z",
+  "updated": "2026-11-17T09:22:08.841Z",
   "merged": 0,
-  "repositories": 1,
+  "repositories": 2,
   "recent": 0,
-  "open": 1,
+  "open": 2,
   "months": [
     {
       "key": "2025-12",
@@ -63,7 +63,7 @@
     {
       "key": "2026-11",
       "merged": 0,
-      "open": 0
+      "open": 1
     }
   ],
   "repos": [
@@ -71,17 +71,33 @@
       "name": "crewAIInc/crewAI",
       "merged": 0,
       "open": 1,
-      "stars": 60974
+      "stars": 61016
+    },
+    {
+      "name": "vercel-labs/skills",
+      "merged": 0,
+      "open": 1,
+      "stars": 39751
     }
   ],
   "prs": [
     {
       "repo": "crewAIInc/crewAI",
-      "stars": 60974,
+      "stars": 61016,
       "url": "https://github.com/crewAIInc/crewAI/pull/8484",
       "title": "fix(tasks): clear stale output when conditional tasks are skipped",
       "number": 8484,
       "createdAt": "2026-10-24T03:31:05Z",
+      "mergedAt": null,
+      "state": "open"
+    },
+    {
+      "repo": "vercel-labs/skills",
+      "stars": 39751,
+      "url": "https://github.com/vercel-labs/skills/pull/2768",
+      "title": "fix(api): preserve duplicate validation when renaming skills",
+      "number": 2768,
+      "createdAt": "2026-11-17T09:08:39Z",
       "mergedAt": null,
       "state": "open"
     }
