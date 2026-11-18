@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-17T09:22:08.841Z",
+  "updated": "2026-11-18T08:40:42.082Z",
   "merged": 0,
-  "repositories": 2,
+  "repositories": 3,
   "recent": 0,
-  "open": 2,
+  "open": 3,
   "months": [
     {
       "key": "2025-12",
@@ -63,7 +63,7 @@
     {
       "key": "2026-11",
       "merged": 0,
-      "open": 1
+      "open": 2
     }
   ],
   "repos": [
@@ -71,19 +71,25 @@
       "name": "crewAIInc/crewAI",
       "merged": 0,
       "open": 1,
-      "stars": 61016
+      "stars": 61059
+    },
+    {
+      "name": "langgenius/dify",
+      "merged": 0,
+      "open": 1,
+      "stars": 161401
     },
     {
       "name": "vercel-labs/skills",
       "merged": 0,
       "open": 1,
-      "stars": 39751
+      "stars": 39894
     }
   ],
   "prs": [
     {
       "repo": "crewAIInc/crewAI",
-      "stars": 61016,
+      "stars": 61059,
       "url": "https://github.com/crewAIInc/crewAI/pull/8484",
       "title": "fix(tasks): clear stale output when conditional tasks are skipped",
       "number": 8484,
@@ -93,11 +99,21 @@
     },
     {
       "repo": "vercel-labs/skills",
-      "stars": 39751,
+      "stars": 39894,
       "url": "https://github.com/vercel-labs/skills/pull/2768",
       "title": "fix(api): preserve duplicate validation when renaming skills",
       "number": 2768,
       "createdAt": "2026-11-17T09:08:39Z",
+      "mergedAt": null,
+      "state": "open"
+    },
+    {
+      "repo": "langgenius/dify",
+      "stars": 161401,
+      "url": "https://github.com/langgenius/dify/pull/46655",
+      "title": "fix(dify-agent): honor stop conditions between buffered SSE events",
+      "number": 46655,
+      "createdAt": "2026-11-18T05:56:13Z",
       "mergedAt": null,
       "state": "open"
     }

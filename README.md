@@ -24,9 +24,11 @@
 <!-- contributions:start -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg">
-  <img src="assets/contributions.svg" alt="开源贡献：0 个 PR 已合并，参与 2 个仓库，2 个 PR 待合并" width="720">
+  <img src="assets/contributions.svg" alt="开源贡献：0 个 PR 已合并，参与 3 个仓库，3 个 PR 待合并" width="720">
 </picture>
 
+- [langgenius/dify #46655](https://github.com/langgenius/dify/pull/46655) — 待合并
+  fix(dify-agent): honor stop conditions between buffered SSE events
 - [vercel-labs/skills #2768](https://github.com/vercel-labs/skills/pull/2768) — 待合并
   fix(api): preserve duplicate validation when renaming skills
 - [crewAIInc/crewAI #8484](https://github.com/crewAIInc/crewAI/pull/8484) — 待合并
