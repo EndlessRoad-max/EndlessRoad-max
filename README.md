@@ -24,10 +24,14 @@
 <!-- contributions:start -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg">
-  <img src="assets/contributions.svg" alt="开源贡献：0 个 PR 已合并，参与 3 个仓库，3 个 PR 待合并" width="720">
+  <img src="assets/contributions.svg" alt="开源贡献：0 个 PR 已合并，参与 4 个仓库，4 个 PR 待合并" width="720">
 </picture>
 
-- [langgenius/dify #46655](https://github.com/langgenius/dify/pull/46655) — 待合并
+- [langflow-ai/langflow #16524](https://github.com/langflow-ai/langflow/pull/16524) — 待合并
+  fix(sdk): preserve session IDs in V1 run requests
+- [vercel-labs/skills #2801](https://github.com/vercel-labs/skills/pull/2801) — 待合并
+  fix(remove): preserve project skills during global removal
+- [langgenius/dify #46655](https://github.com/langgenius/dify/pull/46655) — 已关闭，未合并
   fix(dify-agent): honor stop conditions between buffered SSE events
 - [vercel-labs/skills #2768](https://github.com/vercel-labs/skills/pull/2768) — 待合并
   fix(api): preserve duplicate validation when renaming skills
@@ -35,3 +39,7 @@
   fix(tasks): clear stale output when conditional tasks are skipped
 
 <!-- contributions:end -->
+
+### 已结束的缺陷跟进
+
+- **Dify Agent SDK · SSE 取消与超时边界**：报告 [Issue #46654](https://github.com/langgenius/dify/issues/46654)，并提交初始修复 [PR #46655](https://github.com/langgenius/dify/pull/46655)。问题已于 2026-11-20 通过其他贡献者的 [PR #46733](https://github.com/langgenius/dify/pull/46733) 合并解决，Issue 已关闭；我的原 PR 以重复项关闭，未合并。

@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-19T08:56:14.515Z",
+  "updated": "2026-11-20T07:41:54.505Z",
   "merged": 0,
-  "repositories": 3,
+  "repositories": 4,
   "recent": 0,
-  "open": 3,
+  "open": 4,
   "months": [
     {
       "key": "2025-12",
@@ -63,33 +63,39 @@
     {
       "key": "2026-11",
       "merged": 0,
-      "open": 2
+      "open": 3
     }
   ],
   "repos": [
     {
+      "name": "vercel-labs/skills",
+      "merged": 0,
+      "open": 2,
+      "stars": 40142
+    },
+    {
       "name": "crewAIInc/crewAI",
       "merged": 0,
       "open": 1,
-      "stars": 61091
+      "stars": 61118
+    },
+    {
+      "name": "langflow-ai/langflow",
+      "merged": 0,
+      "open": 1,
+      "stars": 156790
     },
     {
       "name": "langgenius/dify",
       "merged": 0,
-      "open": 1,
-      "stars": 161476
-    },
-    {
-      "name": "vercel-labs/skills",
-      "merged": 0,
-      "open": 1,
-      "stars": 40021
+      "open": 0,
+      "stars": 161548
     }
   ],
   "prs": [
     {
       "repo": "crewAIInc/crewAI",
-      "stars": 61091,
+      "stars": 61118,
       "url": "https://github.com/crewAIInc/crewAI/pull/8484",
       "title": "fix(tasks): clear stale output when conditional tasks are skipped",
       "number": 8484,
@@ -99,7 +105,7 @@
     },
     {
       "repo": "vercel-labs/skills",
-      "stars": 40021,
+      "stars": 40142,
       "url": "https://github.com/vercel-labs/skills/pull/2768",
       "title": "fix(api): preserve duplicate validation when renaming skills",
       "number": 2768,
@@ -109,11 +115,31 @@
     },
     {
       "repo": "langgenius/dify",
-      "stars": 161476,
+      "stars": 161548,
       "url": "https://github.com/langgenius/dify/pull/46655",
       "title": "fix(dify-agent): honor stop conditions between buffered SSE events",
       "number": 46655,
       "createdAt": "2026-11-18T05:56:13Z",
+      "mergedAt": null,
+      "state": "closed"
+    },
+    {
+      "repo": "vercel-labs/skills",
+      "stars": 40142,
+      "url": "https://github.com/vercel-labs/skills/pull/2801",
+      "title": "fix(remove): preserve project skills during global removal",
+      "number": 2801,
+      "createdAt": "2026-11-20T03:43:32Z",
+      "mergedAt": null,
+      "state": "open"
+    },
+    {
+      "repo": "langflow-ai/langflow",
+      "stars": 156790,
+      "url": "https://github.com/langflow-ai/langflow/pull/16524",
+      "title": "fix(sdk): preserve session IDs in V1 run requests",
+      "number": 16524,
+      "createdAt": "2026-11-20T03:45:49Z",
       "mergedAt": null,
       "state": "open"
     }
