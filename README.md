@@ -24,9 +24,11 @@
 <!-- contributions:start -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg">
-  <img src="assets/contributions.svg" alt="开源贡献：0 个 PR 已合并，参与 4 个仓库，4 个 PR 待合并" width="720">
+  <img src="assets/contributions.svg" alt="开源贡献：0 个 PR 已合并，参与 4 个仓库，5 个 PR 待合并" width="720">
 </picture>
 
+- [langgenius/dify #46869](https://github.com/langgenius/dify/pull/46869) — 待合并
+  fix(agent-sdk): normalize tool results in event pages
 - [langflow-ai/langflow #16524](https://github.com/langflow-ai/langflow/pull/16524) — 待合并
   fix(sdk): preserve session IDs in V1 run requests
 - [vercel-labs/skills #2801](https://github.com/vercel-labs/skills/pull/2801) — 待合并
@@ -35,8 +37,6 @@
   fix(dify-agent): honor stop conditions between buffered SSE events
 - [vercel-labs/skills #2768](https://github.com/vercel-labs/skills/pull/2768) — 待合并
   fix(api): preserve duplicate validation when renaming skills
-- [crewAIInc/crewAI #8484](https://github.com/crewAIInc/crewAI/pull/8484) — 待合并
-  fix(tasks): clear stale output when conditional tasks are skipped
 
 <!-- contributions:end -->
 
