@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T08:24:38.343Z",
+  "updated": "2026-11-22T08:16:49.494Z",
   "merged": 0,
   "repositories": 4,
   "recent": 0,
@@ -71,31 +71,31 @@
       "name": "vercel-labs/skills",
       "merged": 0,
       "open": 2,
-      "stars": 40273
+      "stars": 40385
     },
     {
       "name": "crewAIInc/crewAI",
       "merged": 0,
       "open": 1,
-      "stars": 61137
+      "stars": 61155
     },
     {
       "name": "langflow-ai/langflow",
       "merged": 0,
       "open": 1,
-      "stars": 156817
+      "stars": 156832
     },
     {
       "name": "langgenius/dify",
       "merged": 0,
       "open": 1,
-      "stars": 161604
+      "stars": 161647
     }
   ],
   "prs": [
     {
       "repo": "crewAIInc/crewAI",
-      "stars": 61137,
+      "stars": 61155,
       "url": "https://github.com/crewAIInc/crewAI/pull/8484",
       "title": "fix(tasks): clear stale output when conditional tasks are skipped",
       "number": 8484,
@@ -105,7 +105,7 @@
     },
     {
       "repo": "vercel-labs/skills",
-      "stars": 40273,
+      "stars": 40385,
       "url": "https://github.com/vercel-labs/skills/pull/2768",
       "title": "fix(api): preserve duplicate validation when renaming skills",
       "number": 2768,
@@ -115,7 +115,7 @@
     },
     {
       "repo": "langgenius/dify",
-      "stars": 161604,
+      "stars": 161647,
       "url": "https://github.com/langgenius/dify/pull/46655",
       "title": "fix(dify-agent): honor stop conditions between buffered SSE events",
       "number": 46655,
@@ -125,7 +125,7 @@
     },
     {
       "repo": "vercel-labs/skills",
-      "stars": 40273,
+      "stars": 40385,
       "url": "https://github.com/vercel-labs/skills/pull/2801",
       "title": "fix(remove): preserve project skills during global removal",
       "number": 2801,
@@ -135,7 +135,7 @@
     },
     {
       "repo": "langflow-ai/langflow",
-      "stars": 156817,
+      "stars": 156832,
       "url": "https://github.com/langflow-ai/langflow/pull/16524",
       "title": "fix(sdk): preserve session IDs in V1 run requests",
       "number": 16524,
@@ -145,7 +145,7 @@
     },
     {
       "repo": "langgenius/dify",
-      "stars": 161604,
+      "stars": 161647,
       "url": "https://github.com/langgenius/dify/pull/46869",
       "title": "fix(agent-sdk): normalize tool results in event pages",
       "number": 46869,
