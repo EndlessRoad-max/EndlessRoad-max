@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T08:28:07.018Z",
+  "updated": "2026-11-27T08:39:41.818Z",
   "merged": 2,
   "repositories": 4,
   "recent": 2,
@@ -71,7 +71,7 @@
       "name": "vercel-labs/skills",
       "merged": 2,
       "open": 0,
-      "stars": 41074
+      "stars": 41075
     },
     {
       "name": "crewAIInc/crewAI",
@@ -89,7 +89,7 @@
       "name": "langgenius/dify",
       "merged": 0,
       "open": 1,
-      "stars": 161987
+      "stars": 161988
     }
   ],
   "prs": [
@@ -105,7 +105,7 @@
     },
     {
       "repo": "vercel-labs/skills",
-      "stars": 41074,
+      "stars": 41075,
       "url": "https://github.com/vercel-labs/skills/pull/2768",
       "title": "fix(api): preserve duplicate validation when renaming skills",
       "number": 2768,
@@ -115,7 +115,7 @@
     },
     {
       "repo": "langgenius/dify",
-      "stars": 161987,
+      "stars": 161988,
       "url": "https://github.com/langgenius/dify/pull/46655",
       "title": "fix(dify-agent): honor stop conditions between buffered SSE events",
       "number": 46655,
@@ -125,7 +125,7 @@
     },
     {
       "repo": "vercel-labs/skills",
-      "stars": 41074,
+      "stars": 41075,
       "url": "https://github.com/vercel-labs/skills/pull/2801",
       "title": "fix(remove): preserve project skills during global removal",
       "number": 2801,
@@ -145,7 +145,7 @@
     },
     {
       "repo": "langgenius/dify",
-      "stars": 161987,
+      "stars": 161988,
       "url": "https://github.com/langgenius/dify/pull/46869",
       "title": "fix(agent-sdk): normalize tool results in event pages",
       "number": 46869,
