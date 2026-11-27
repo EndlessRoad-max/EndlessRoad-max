@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const user = 'EndlessRoad-max';
@@ -104,12 +105,14 @@ async function main() {
       createdAt:pr.created_at,mergedAt:pr.merged_at,state:pr.state});
   }
   const data=summarize(prs);
+  // Change both image URLs when the rendered statistics change, avoiding stale caches.
+  const imageVersion=createHash('sha256').update(render(data)).update(render(data,true)).digest('hex').slice(0,12);
   const readme=await readFile(path.join(root,'README.md'),'utf8');
   const marker=/<!-- contributions:start -->[\s\S]*?<!-- contributions:end -->/;
   if(!marker.test(readme)) throw new Error('README contribution markers missing');
   const recent=[...prs].sort((a,b)=>(b.mergedAt||b.createdAt).localeCompare(a.mergedAt||a.createdAt)).slice(0,5);
   const links=recent.map(p=>`- [${p.repo} #${p.number}](${p.url}) — ${p.mergedAt?'已合并':p.state==='open'?'待合并':'已关闭，未合并'}\n  ${p.title.replace(/[\r\n]/g,' ').replace(/[\\`*_{}\[\]<>]/g,'\\$&')}`).join('\n');
-  const block=`<!-- contributions:start -->\n<picture>\n  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg">\n  <img src="assets/contributions.svg" alt="开源贡献：${data.merged} 个 PR 已合并，参与 ${data.repositories} 个仓库，${data.open} 个 PR 待合并" width="720">\n</picture>\n\n${links||'暂无公开 PR。'}\n\n<!-- contributions:end -->`;
+  const block=`<!-- contributions:start -->\n<picture>\n  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg?v=${imageVersion}">\n  <img src="assets/contributions.svg?v=${imageVersion}" alt="开源贡献：${data.merged} 个 PR 已合并，参与 ${data.repositories} 个仓库，${data.open} 个 PR 待合并" width="720">\n</picture>\n\n${links||'暂无公开 PR。'}\n\n<!-- contributions:end -->`;
   await mkdir(path.join(root,'assets'),{recursive:true});
   await writeFile(path.join(root,'assets/contributions.json'),JSON.stringify(data,null,2)+'\n');
   await writeFile(path.join(root,'assets/contributions.svg'),render(data));
