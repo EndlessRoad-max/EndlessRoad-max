@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-26T09:41:43.095Z",
-  "merged": 0,
+  "updated": "2026-11-27T08:25:49.000Z",
+  "merged": 2,
   "repositories": 4,
-  "recent": 0,
-  "open": 5,
+  "recent": 2,
+  "open": 3,
   "months": [
     {
       "key": "2025-12",
@@ -62,15 +62,15 @@
     },
     {
       "key": "2026-11",
-      "merged": 0,
-      "open": 4
+      "merged": 2,
+      "open": 2
     }
   ],
   "repos": [
     {
       "name": "vercel-labs/skills",
-      "merged": 0,
-      "open": 2,
+      "merged": 2,
+      "open": 0,
       "stars": 40961
     },
     {
@@ -110,8 +110,8 @@
       "title": "fix(api): preserve duplicate validation when renaming skills",
       "number": 2768,
       "createdAt": "2026-11-17T09:08:39Z",
-      "mergedAt": null,
-      "state": "open"
+      "mergedAt": "2026-11-27T04:40:53Z",
+      "state": "closed"
     },
     {
       "repo": "langgenius/dify",
@@ -130,8 +130,8 @@
       "title": "fix(remove): preserve project skills during global removal",
       "number": 2801,
       "createdAt": "2026-11-20T03:43:32Z",
-      "mergedAt": null,
-      "state": "open"
+      "mergedAt": "2026-11-27T04:35:34Z",
+      "state": "closed"
     },
     {
       "repo": "langflow-ai/langflow",

@@ -42,7 +42,7 @@ export function render(data, dark = false) {
   const t = (x,y,txt,size=13,fill=colors.text,extra='') => `<text x="${x}" y="${y}" font-size="${size}" fill="${fill}" ${extra}>${escape(txt)}</text>`;
   const line = y => `<path d="M32 ${y}H688" stroke="${colors.line}"/>`;
   let svg = `<svg xmlns="http://www.w3.org/2000/svg" width="720" height="${height}" viewBox="0 0 720 ${height}" role="img" aria-labelledby="title desc">
-  <title id="title">陈书研的公开开源贡献</title><desc id="desc">已合并 ${data.merged} 个 PR，参与 ${data.repositories} 个仓库，近 30 天合并 ${data.recent} 个 PR，待合并 ${data.open} 个。</desc>
+  <title id="title">${escape(user)} 的公开开源贡献</title><desc id="desc">已合并 ${data.merged} 个 PR，参与 ${data.repositories} 个仓库，近 30 天合并 ${data.recent} 个 PR，待合并 ${data.open} 个。</desc>
   <rect width="720" height="${height}" rx="8" fill="${colors.bg}"/>
   <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Microsoft YaHei,sans-serif">
   <circle cx="36" cy="34" r="3" fill="${colors.purple}"/>
