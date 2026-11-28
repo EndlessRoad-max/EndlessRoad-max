@@ -23,8 +23,8 @@
 
 <!-- contributions:start -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg?v=b11a6110d955">
-  <img src="assets/contributions.svg?v=b11a6110d955" alt="开源贡献：2 个 PR 已合并，参与 4 个仓库，3 个 PR 待合并" width="720">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg?v=390e611e2785">
+  <img src="assets/contributions.svg?v=390e611e2785" alt="开源贡献：2 个 PR 已合并，参与 4 个仓库，3 个 PR 待合并" width="720">
 </picture>
 
 - [vercel-labs/skills #2768](https://github.com/vercel-labs/skills/pull/2768) — 已合并
